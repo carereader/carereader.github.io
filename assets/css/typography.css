@@ -49,18 +49,22 @@ html {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 28px;
   margin: 0 0 32px;
 }
 
 h2 {
+  font-size: 24px;
   margin: 3rem 0;
 }
 
 p, a, ul li {
   font-size: 18px;
   line-height: 32px;
+}
 
+p {
+  margin: 34px 0 0;
 }
 
 a {

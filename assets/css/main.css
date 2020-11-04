@@ -63,7 +63,7 @@ aside section:last-of-type {
   }
 
   section {
-    padding: 85px 85px 0 85px;
+    padding: 85px;
     max-width: 720px;
   }
 }
@@ -100,6 +100,11 @@ li.indent {
   padding-left: 2em;
 }
 
+#toc ul li a[href="#content-warning"] {
+  color: var(--salmon);
+  border-bottom-color: var(--salmon);
+}
+
 /* about */
 
 .quote-attribution {
@@ -110,6 +115,13 @@ li.indent {
   .quote-attribution {
     margin-left: 20rem;
   }
+}
+
+/* content warning section */
+
+#content-warning {
+  /* background: var(--salmon); */
+  color: var(--salmon);
 }
 
 /* grey sections and aside */
@@ -174,6 +186,16 @@ aside {
   section.grey p a:visited,
   section.grey ul a:visited {
     border-bottom: 2px solid var(--salmon);
+  }
+
+  .logos img {
+    height: 80px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .logos img {
+    height: 120px;
   }
 }
 
