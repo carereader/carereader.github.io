@@ -75,8 +75,12 @@ ul li, !#toc ul li {
   margin-bottom: 2rem;
 }
 
+ul li {
+  padding-bottom: 15px;
+}
+
 #toc ul li {
-  padding-bottom: .5rem;
+  padding-bottom: 3px;
 }
 
 ul li a {
@@ -91,7 +95,7 @@ ul li a {
   }
 
   ul li {
-    padding-bottom: 15px;
+    padding-bottom: 24px;
   }
 
   #toc ul li {
