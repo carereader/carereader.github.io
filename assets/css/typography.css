@@ -59,8 +59,8 @@ h2 {
 
 p, a, ul li {
   font-size: 18px;
-  line-height: 28px;
-  padding-bottom: 8px;
+  line-height: 32px;
+
 }
 
 a {
@@ -72,15 +72,15 @@ a:hover {
 }
 
 ul li, !#toc ul li {
-  margin-bottom: 1.8rem;
+  margin-bottom: 2rem;
 }
 
 #toc ul li {
-  margin-bottom: .5rem;
+  padding-bottom: .5rem;
 }
 
 ul li a {
-  border-bottom: 3px solid var(--purple);
+  border-bottom: 2px solid var(--purple);
   padding-bottom: 2px;
 }
 
@@ -88,6 +88,14 @@ ul li a {
   h1 {
     font-size: 34px;
     margin: 0 0 44px;
+  }
+
+  ul li {
+    padding-bottom: 15px;
+  }
+
+  #toc ul li {
+    padding-bottom: 0px;
   }
 
   p, a, ul li {
