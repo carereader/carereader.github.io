@@ -37,11 +37,6 @@ section p:first-of-type {
   margin-top: 0;
 }
 
-main section:last-of-type,
-aside section:last-of-type {
-  padding-bottom: 85px !important;
-}
-
 @media (min-width: 1200px) {
   html, body, main, aside {
     height: 100%;
