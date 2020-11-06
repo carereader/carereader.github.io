@@ -44,7 +44,7 @@
        url('../fonts/standard-bold-italic-webfont.svg#svgFontName') format('svg');
 }
 
-html {
+html, form button, form textarea {
   font-family: 'Standard', 'Helvetica Neue', sans-serif;
 }
 
@@ -58,7 +58,7 @@ h2 {
   margin: 3rem 0;
 }
 
-p, a, ul li {
+p, a, ul li, form label, form input, form textarea, form button {
   font-size: 18px;
   line-height: 32px;
 }
@@ -106,7 +106,7 @@ ul li a {
     padding-bottom: 0px;
   }
 
-  p, a, ul li {
+  p, a, ul li, form label, form input, form textarea, form button {
     font-size: 21px;
     line-height: 32px;
   }

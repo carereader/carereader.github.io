@@ -124,6 +124,37 @@ li.indent {
   color: var(--salmon);
 }
 
+/* form */
+
+form label {
+  margin-bottom: 8px;
+}
+
+form label, form button {
+  margin-top: 34px;
+}
+
+form textarea, form input {
+  border: 2px solid var(--drk-grey);
+  background: #EFEDEC;
+  width: 100%;
+}
+
+form label, form textarea {
+  display: block;
+}
+
+form textarea {
+  color: var(--drk-grey);
+}
+
+form button {
+  background: var(--drk-grey);
+  border: none;
+  color: #EFEDEC;
+  padding: 4px 20px;
+}
+
 /* grey sections and aside */
 
 aside,
